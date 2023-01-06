@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Contdown - Data de aniversário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Seu aniversário está chegando!</h1>
+            <p>Em</p>
+        </div>
+
+        <div class="contdown">
+            <div>
+                <h1 id="dias">00</h1>
+                <p>Dias</p>
+            </div>
+
+
+            <div class="">
+                <h1 id="horas">00</h1>
+                <p>Horas</p>
+            </div>
+
+
+            <div class="">
+                <h1 id="minutos">00</h1>
+                <p>Minutos</p>
+            </div>
+
+
+            <div class="">
+                <h1 id="segundos">00</h1>
+                <p>Segundos</p>
+            </div>
+        </div>
+        <div class="btnDate">
+            <label for="date">Selecione a data do seu aniversário</label>
+            <input type="date" name="date" id="date">
+            <button id="btnDias" onclick="contando()">Contar</button>
+        </div>
+    </div>
+
+  
+</body>
+
+</html>
